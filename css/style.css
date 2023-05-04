@@ -330,18 +330,20 @@ img {
 
 .news-img-inner {
     width: 700px;
+    padding-top: 7px;
 }
 
 .news-inner {
     display: flex;
     align-items: center;
     width: 470px;
+    height: 380px;
     background-image: url(../img/bg3.svg);
 }
 
 .text-news-inner {
     width: 400px;
-    min-height: 397px;
+    min-height: 300px;
     background-color: var(--basic-gray-light);
     display: flex;
     flex-direction: column;
